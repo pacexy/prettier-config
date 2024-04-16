@@ -1,0 +1,18 @@
+{
+  "name": "@pacexy/prettier-config",
+  "version": "0.0.0",
+  "description": "[description]",
+  "type": "module",
+  "packageManager": "pnpm@9.0.1",
+  "author": "pacexy <pacexy@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/pacexy/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacexy/prettier-config.git"
+  },
+  "bugs": "https://github.com/pacexy/prettier-config/issues",
+  "keywords": [
+    "prettier-config"
+  ]
+}
