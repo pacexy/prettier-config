@@ -2,22 +2,22 @@
   "name": "@pacexy/prettier-config",
   "version": "0.0.0",
   "description": "[description]",
-  "type": "module",
-  "packageManager": "pnpm@9.0.1",
-  "author": "pacexy <pacexy@gmail.com>",
-  "license": "MIT",
+  "keywords": [
+    "prettier-config"
+  ],
   "homepage": "https://github.com/pacexy/prettier-config#readme",
+  "bugs": "https://github.com/pacexy/prettier-config/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pacexy/prettier-config.git"
   },
-  "bugs": "https://github.com/pacexy/prettier-config/issues",
-  "keywords": [
-    "prettier-config"
-  ],
+  "license": "MIT",
+  "author": "pacexy <pacexy@gmail.com>",
+  "type": "module",
   "devDependencies": {
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.5.0",
     "prettier-plugin-sort-json": "^4.0.0"
-  }
+  },
+  "packageManager": "pnpm@9.0.1"
 }
