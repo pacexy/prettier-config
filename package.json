@@ -14,5 +14,8 @@
   "bugs": "https://github.com/pacexy/prettier-config/issues",
   "keywords": [
     "prettier-config"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
