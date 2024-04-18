@@ -17,6 +17,7 @@
   "scripts": {
     "release": "bumpp && pnpm publish"
   },
+  "prettier": "./index.js",
   "devDependencies": {
     "bumpp": "^9.4.0",
     "prettier": "^3.2.5",
