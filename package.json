@@ -13,7 +13,6 @@
   },
   "license": "MIT",
   "author": "pacexy <pacexy@gmail.com>",
-  "type": "module",
   "scripts": {
     "release": "bumpp && pnpm publish"
   },

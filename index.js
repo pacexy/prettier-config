@@ -1,5 +1,5 @@
 /** @type {import('prettier').Options} */
-export default {
+module.exports = {
   plugins: ['prettier-plugin-sort-json', 'prettier-plugin-packagejson'],
   semi: false,
   singleQuote: true,
