@@ -13,6 +13,9 @@
   },
   "license": "MIT",
   "author": "pacexy <pacexy@gmail.com>",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "release": "bumpp && pnpm publish"
   },
