@@ -20,11 +20,13 @@
     "release": "bumpp && pnpm publish"
   },
   "prettier": "./index.js",
-  "devDependencies": {
-    "bumpp": "^9.4.0",
-    "prettier": "^3.2.5",
+  "dependencies": {
     "prettier-plugin-packagejson": "^2.5.0",
     "prettier-plugin-sort-json": "^4.0.0"
+  },
+  "devDependencies": {
+    "bumpp": "^9.4.0",
+    "prettier": "^3.2.5"
   },
   "packageManager": "pnpm@9.0.4",
   "publishConfig": {
