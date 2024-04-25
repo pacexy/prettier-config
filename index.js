@@ -8,4 +8,12 @@ module.exports = {
   ...{
     jsonRecursiveSort: true,
   },
+  overrides: [
+    {
+      files: ['**/pnpm-lock.yaml'],
+      options: {
+        requirePragma: true,
+      },
+    },
+  ],
 }
