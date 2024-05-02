@@ -22,7 +22,8 @@
   "prettier": "./index.js",
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.0",
-    "prettier-plugin-sort-json": "^4.0.0"
+    "prettier-plugin-sort-json": "^4.0.0",
+    "prettier-plugin-sql": "^0.18.0"
   },
   "devDependencies": {
     "bumpp": "^9.4.0",

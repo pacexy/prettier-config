@@ -1,6 +1,10 @@
 /** @type {import('prettier').Options} */
 module.exports = {
-  plugins: ['prettier-plugin-sort-json', 'prettier-plugin-packagejson'],
+  plugins: [
+    'prettier-plugin-sort-json',
+    'prettier-plugin-packagejson',
+    'prettier-plugin-sql',
+  ],
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
