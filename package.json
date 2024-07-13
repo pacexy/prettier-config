@@ -23,11 +23,11 @@
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.0",
     "prettier-plugin-sort-json": "^4.0.0",
-    "prettier-plugin-sql": "^0.18.0"
+    "prettier-plugin-sql": "^0.18.1"
   },
   "devDependencies": {
-    "bumpp": "^9.4.0",
-    "prettier": "^3.2.5"
+    "bumpp": "^9.4.1",
+    "prettier": "^3.3.2"
   },
   "packageManager": "pnpm@9.0.4",
   "publishConfig": {
