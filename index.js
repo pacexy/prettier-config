@@ -5,13 +5,18 @@ module.exports = {
     'prettier-plugin-sort-json',
     'prettier-plugin-packagejson',
     'prettier-plugin-sql',
+    'prettier-plugin-tailwindcss', // MUST come last - https://github.com/tailwindlabs/prettier-plugin-tailwindcss#compatibility-with-other-prettier-plugins
   ],
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
-  // prettier-plugin-sort-json
+  // options for prettier-plugin-sort-json
   ...{
     jsonRecursiveSort: true,
+  },
+  // options for prettier-plugin-tailwindcss
+  ...{
+    tailwindFunctions: ['cva', 'cn'],
   },
   overrides: [
     {
