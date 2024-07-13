@@ -1,6 +1,7 @@
 /** @type {import('prettier').Options} */
 module.exports = {
   plugins: [
+    '@ianvs/prettier-plugin-sort-imports',
     'prettier-plugin-sort-json',
     'prettier-plugin-packagejson',
     'prettier-plugin-sql',
