@@ -1,6 +1,6 @@
 {
   "name": "@pacexy/prettier-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "@pacexy's prettier config",
   "keywords": [
     "prettier-config"
