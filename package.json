@@ -17,7 +17,7 @@
     "index.js"
   ],
   "scripts": {
-    "release": "bumpp && pnpm publish"
+    "postversion": "git push --follow-tags && npm publish"
   },
   "prettier": "./index.js",
   "dependencies": {
@@ -28,7 +28,6 @@
     "prettier-plugin-tailwindcss": "^0.6.5"
   },
   "devDependencies": {
-    "bumpp": "^9.4.1",
     "prettier": "^3.3.2"
   },
   "packageManager": "pnpm@9.5.0",
