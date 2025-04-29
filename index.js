@@ -6,7 +6,7 @@ module.exports = {
     'prettier-plugin-packagejson',
     'prettier-plugin-sql',
     'prettier-plugin-tailwindcss', // MUST come last - https://github.com/tailwindlabs/prettier-plugin-tailwindcss#compatibility-with-other-prettier-plugins
-  ],
+  ].map((m) => require.resolve(m)), // Resolve plugins manually to support pnpm v10. See https://github.com/pnpm/pnpm/issues/8378
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
