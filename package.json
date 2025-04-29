@@ -17,6 +17,7 @@
     "index.js"
   ],
   "scripts": {
+    "update": "corepack use pnpm@latest && pnpm update --latest",
     "postversion": "git push --follow-tags && npm publish"
   },
   "prettier": "./index.js",
